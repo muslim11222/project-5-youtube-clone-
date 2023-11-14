@@ -1,0 +1,173 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+html,
+body {
+     font-weight: 300;
+     line-height: 1.4;
+     scroll-behavior: smooth;
+}
+
+nav {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 20px;
+}
+
+
+.logo {
+     width: 100px;
+     height: auto;
+}
+
+
+
+.search-nav {
+     display: flex;
+}
+
+.search2 {
+     display: flex;
+}
+
+.search2 input {
+     min-width: 600px;
+     padding: 2px 2px;
+     border: 0.5px solid #ccc;
+}
+
+
+.search2 button {
+     border: none;
+     padding: 10px 10px;
+}
+
+.mic {
+     padding: 15px;
+     border-radius: 50%;
+     background: #ccc;
+     display: grid;
+     place-items: center;
+     margin-left: 10px;
+     margin-right: 10px;
+}
+
+
+.up-side {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 20px;
+     margin-right: 40px;
+}
+
+.tag1 {
+     display: flex;
+     padding: 10px 10px;
+     gap: 15px;
+     border-top: 1px solid #ccc;
+}
+
+.tag2 {
+     padding: 5px 15px;
+     border-radius: 20px;
+     border: 1px solid rgb(22, 22, 22);
+}
+
+.dark {
+     background: #000;
+     color: white;
+}
+
+.light {
+     background: rgb(238, 238, 238);
+     color: rgb(67, 67, 67);
+}
+
+
+
+
+
+
+
+
+
+
+.containar {
+     display: flex;
+}
+
+
+
+aside {
+     padding: 40px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     gap: 30px;
+} 
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons img {
+     width: 30px;
+}
+
+.icons p {
+     font-size: 10px;
+     margin-top: -5px;
+}
+
+.bar {
+     margin-top: 20px;
+}
+
+.main-containar {
+     width: 100%;
+}
+
+.card {
+     min-height: 100vh;
+     background: rgb(240, 238, 238);
+}
+
+.card {
+     display: grid;
+     grid-template-columns: repeat(auto-fit,minmax(320px, 1fr));
+}
+
+.card-img {
+     padding: 10px;
+     max-width: 329px;
+     display: flex;
+     flex-direction: column;
+}
+
+.content {
+     padding-top: 10px;
+     display: flex;
+     gap: 5px;
+}
+
+.status {
+     display: flex;
+     font-size: 13px;
+     gap: 10px;
+}
+
+.status p {
+     font-weight: bold;
+}
+
+.content3 .name {
+     font-weight: bold;
+}
